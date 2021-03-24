@@ -1,0 +1,36 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "watch": "webpack --watch --mode=development --devtool=source-map",
+    "dev": "webpack serve --mode development --env development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanna-pham/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanna-pham/weather-app/issues"
+  },
+  "homepage": "https://github.com/joanna-pham/weather-app#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.17",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
